@@ -1,0 +1,20 @@
+figure_file,included_replay,coverage
+figures/frequency_snr.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/pairwise.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/main_F_Mplus.pdf,paper_snapshot/output/fig5_compact_20261104/plot_fig5.py,selected replay included; validation recorded separately
+figures/shape_scale_information.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/physical_heating140.pdf,paper_snapshot/output/submission_edit_20261104/figure/plot_heating.py,selected replay included; validation recorded separately
+figures/seven_model_tracked.pdf,paper_snapshot/output/fig3_preview_20261104/plot_preview.py,selected replay included; validation recorded separately
+figures/physical_tracked_response.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/histories.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/uv_coverage.png,,complete plotting dependency closure not assembled in this initial release
+figures/thermal_noise_three_cases.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/frequency_resolution.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/frequency_pairs.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/spectra_resolution.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/seed_pilot.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/boundary_covariance.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/visibility_validation.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/fitted_response_tradeoff.pdf,,complete plotting dependency closure not assembled in this initial release
+figures/matched_noise.pdf,paper_snapshot/matched_response_review/figure_source/plot_matched.py --figure 18,selected replay included; validation recorded separately
+figures/seven_model_tracked_all_pairs.pdf,paper_snapshot/matched_response_review/figure_source/plot_matched.py --figure 3,selected replay included; validation recorded separately

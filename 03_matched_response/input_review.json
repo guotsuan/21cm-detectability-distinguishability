@@ -1,0 +1,22 @@
+{
+  "status": "PASS_REVIEW_METADATA_AND_GEOMETRY",
+  "jobs": 42,
+  "frequency_MHz": 130,
+  "seeds": [
+    12345,
+    23456,
+    34567
+  ],
+  "source_slices": 127,
+  "channels": 128,
+  "frequency_centres_MHz": [
+    126.03125,
+    133.96875
+  ],
+  "density_within_seeds_match": true,
+  "density_between_seeds_distinct": true,
+  "all_requested_configs_match_reference": true,
+  "geometry_hash_verified": true,
+  "scope": "Independent checks of uploaded metadata and geometry; large signal arrays are not in the review and must pass array-hash checks locally during prepare.",
+  "signal_span_deg": 0.8933696151753784
+}

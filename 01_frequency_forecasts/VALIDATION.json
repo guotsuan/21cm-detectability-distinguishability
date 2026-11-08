@@ -1,0 +1,21 @@
+{
+  "synthetic_tests": "PASS",
+  "tests": [
+    "analytic sinusoid and Parseval",
+    "constant/zero and mixed-zero interpolation",
+    "no extrapolation",
+    "duplicate native entries",
+    "analytic SNR and template distances",
+    "exact spectral-window Fourier response",
+    "white channel overlap",
+    "singular covariance rejection",
+    "extraction CLI and resume/config guards",
+    "multiband forecast CLI and independent analytic regression"
+  ],
+  "actual_21cmSense_execution": "NOT RUN: 21cmSense and Astropy absent in authoring environment",
+  "required_real_environment_gates": [
+    "build_noise.py 130 MHz vs original native weights",
+    "forecast_bands.py 130 MHz vs saved seven-model 96/128 results"
+  ],
+  "simulation_runs_performed": false
+}

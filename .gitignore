@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.env
+*.log
+*.sif
+*.h5
+*.hdf5
+coeval_z*.npz
+replay_outputs/

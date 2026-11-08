@@ -1,0 +1,4 @@
+frequency_MHz,tag,max_relative_native_signal_error,diagnostic_tolerance,within_diagnostic_tolerance
+140,F_control,5.0218439628935136e-08,3e-05,True
+140,Mplus_LX40.00,3.849593045446298e-07,3e-05,True
+140,Mplus_LX40.25,8.881784197001252e-16,3e-05,True

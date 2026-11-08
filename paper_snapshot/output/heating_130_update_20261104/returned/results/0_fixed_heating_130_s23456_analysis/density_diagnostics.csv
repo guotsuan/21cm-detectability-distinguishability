@@ -1,0 +1,3 @@
+seed,frequency_MHz,tag,reference,exact_match,rms_difference,relative_rms,max_abs_difference,density_sha256
+23456,130,Mplus_LX40.00,F_control,True,0.0,0.0,0.0,d8d3e127cf0b8b775c14b59a7438dba966480796ca4175b39654a1b43ec2dbc7
+23456,130,Mplus_LX40.25,F_control,True,0.0,0.0,0.0,d8d3e127cf0b8b775c14b59a7438dba966480796ca4175b39654a1b43ec2dbc7

@@ -1,0 +1,11 @@
+{
+  "archive": "matched_response_review/matched_response_review.zip",
+  "archive_sha256": "7a6a3e8544706533219808624c7db6da895aae6eed380191012844ebe69c1911",
+  "numpy_version": "2.5.1",
+  "primary": "dipole lightcones; matched_catalogue covariance (no foreground residual); F reference sky, separately propagated per pipeline",
+  "secondary": "dipole truth minus Gaussian catalogue residual; same F reference sky; observed_mean_distance also includes differential signal-residual bias",
+  "metric": "sqrt((P_F-P_Mplus)^T C_F^{-1} (P_F-P_Mplus)); original 28-dimensional covariance marginalized to retained 24 outputs before inversion",
+  "support": "first six delay bins in each of four baseline groups; excludes 4--8.01 us final bin",
+  "scope": "Fixed-sky, 10-second-per-split thermal plus sky-noise mixed covariance. No cosmological sample variance, calibration uncertainty, residual ensemble or 1000-hour rescaling. Not a rejection significance, information fraction, or cross-frequency observing ranking.",
+  "validation": "archive hashes; visibility-power and conditional-covariance reconstruction; eigensolve versus Cholesky; cutoff sweep"
+}

@@ -1,0 +1,3 @@
+seed,frequency_MHz,model,max_relative_native_signal_error,tolerance,passed
+12345,130,F,6.705774957538324e-08,3e-05,True
+12345,130,Mplus,1.6516982859204887e-07,3e-05,True

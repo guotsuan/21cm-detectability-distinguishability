@@ -1,0 +1,112 @@
+{
+  "phase_centre_ra_deg": 308.9690437796526,
+  "phase_centre_dec_deg": -26.82472207999999,
+  "mjd_times": [
+    60000.03472222222,
+    60000.104166666664,
+    60000.17361111111
+  ],
+  "site": {
+    "longitude_deg": 116.76444820000002,
+    "latitude_deg": -26.824722079999994,
+    "height_m": 364.99999999870505
+  },
+  "signal_reconstruction_relative_rms": 1.0104161142633666e-16,
+  "signal_parent_configuration": {
+    "source_pilot": "/home/cathie/eor_model_test/sky3d_response_20261017T044522_383806",
+    "source_grouped": "/home/cathie/eor_model_test/sky3d_grouped_20261017T052527_383806",
+    "source_hashes": {
+      "configuration.json": "ccb19f9c48ac5d3e5006f9ec2415c125d3b599e8c6da6451b648d0f2ec9ffa1d",
+      "geometry.npz": "db20c558ec7e8ea3db0adeb72e39e1af1503f250c77804c45d8e50e84846574a",
+      "response.npz": "3032a93daca3f3d9de950ecf6f587a9abb1a1b7fbc0b6f9f442809bbe861269d"
+    },
+    "grouped_response_sha256": "3c79d68b97fa0d46a6e2e76c9db06e271cb7357b1d6f6b9c34b3e53369e132b2",
+    "seed": 20261018,
+    "realizations": 32,
+    "parent_deg": 12.0,
+    "fields_deg": [
+      4.0,
+      6.0,
+      8.0,
+      10.0
+    ],
+    "pixel_spacing_direction_cosine": 0.002181661564992912,
+    "parent_shape": [
+      128,
+      96,
+      96
+    ],
+    "parent_box_Mpc": [
+      142.18463254764544,
+      1976.927880611911,
+      1976.927880611911
+    ],
+    "parent_voxel_volume_Mpc3": 471.06612737691887,
+    "input_bins": [
+      [
+        0.0,
+        0.04,
+        0.02,
+        0.1
+      ],
+      [
+        0.0,
+        0.04,
+        0.1,
+        0.3
+      ],
+      [
+        0.0,
+        0.04,
+        0.3,
+        0.8
+      ],
+      [
+        0.04,
+        0.08,
+        0.02,
+        0.1
+      ],
+      [
+        0.04,
+        0.08,
+        0.1,
+        0.3
+      ],
+      [
+        0.04,
+        0.08,
+        0.3,
+        0.8
+      ]
+    ],
+    "input_power_mK2_Mpc3": [
+      500.0,
+      1200.0,
+      300.0,
+      1500.0,
+      700.0,
+      1000.0
+    ],
+    "fringe_cycles_per_pixel": 0.31425360811100345,
+    "boundary": "periodic parent, nested central square crops; zero outside each crop; original asymmetric even-node convention retained",
+    "estimator": "same four baseline groups, unweighted frequency mean removal before RMS Hann, unitary FFT, original delay bins",
+    "limits": [
+      "parent volume/Fourier lattice differs from previous 4-degree periodic box",
+      "this is not a finite-parent-volume convergence test",
+      "fixed angular pixel spacing; no new angular convergence claim",
+      "Gaussian beam and separable time/channel averaging",
+      "no physical noise, foregrounds, calibration, lightcone, or covariance inversion"
+    ]
+  },
+  "signal_scope": "original fixed Gaussian coeval field, 8-degree crop, not physical F or Mplus",
+  "station_mapping": "same S8-1 reference beam at common array origin for all selected station pairs; not actual station-specific layouts",
+  "geometry_scope": "actual archived selected station IDs and UVW at three original snapshots",
+  "averaging": "original separable fringe sinc; beam frozen at midpoint, no beam averaging within integration/channel",
+  "noise_scope": "same uploaded-table Stokes-I variance, no Jones inverse; beam power shape normalised at pointing; not independent sensitivity calibration",
+  "input_sha256": {
+    "frozen.npz": "543c19cf0c9ee4ca11938a10adea8e081c4901fb96d2e604bf7d639b473ef470",
+    "station_antennas.csv": "cadd66b10c3ce94927069e250f108d2f418fef90a4e253bc392d289fdd336c55",
+    "catalogue.csv": "c355ea0d17b6d9bf71429d1ca23d73c35df512416ba1ab59fd16e89b9aa57e38"
+  }
+}

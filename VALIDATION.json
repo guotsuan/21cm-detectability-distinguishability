@@ -1,0 +1,35 @@
+{
+  "01_frequency_forecasts/self_test.py": 0,
+  "02_seven_model_simulations/self_test.py": 0,
+  "03_matched_response/self_test.py": 0,
+  "04_heating_followup/code/self_test.py": 0,
+  "distances.csv": "matches reference",
+  "per_output.csv": "matches reference",
+  "pseudoinverse_stability.csv": "matches reference",
+  "validation.csv": "matches reference",
+  "python_syntax_files": 42,
+  "selected_figures": [
+    {
+      "figure": "main_F_Mplus.pdf",
+      "returncode": 0
+    },
+    {
+      "figure": "seven_model_tracked.pdf",
+      "returncode": 0
+    },
+    {
+      "figure": "physical_heating140.pdf",
+      "returncode": 0
+    },
+    {
+      "figure": "seven_model_tracked_all_pairs.pdf",
+      "returncode": 0
+    },
+    {
+      "figure": "matched_noise.pdf",
+      "returncode": 0
+    }
+  ],
+  "full_physical_simulations": "not rerun",
+  "date": "2026-11-08"
+}

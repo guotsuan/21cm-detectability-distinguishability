@@ -1,0 +1,17 @@
+{
+  "seed_metrics.csv": {
+    "archive": "seed_pilot_analysis_review.zip",
+    "member": "results/metrics.csv",
+    "sha256": "18a849dc62f750c7a0ec47164609b064c8ed5072fe4e24b282e32138ecb5c9b4"
+  },
+  "box_metrics.csv": {
+    "archive": "box_pilot_analysis_review.zip",
+    "member": "results/box_metrics.csv",
+    "sha256": "8d1754c7aaec4e074e369eb4e6230de1d3a3d6c3ec66a2b40295f3830ef456c8"
+  },
+  "covariance_comparison.csv": {
+    "archive": "submission_stage12_review.zip",
+    "member": "results/00_covariance/covariance_comparison.csv",
+    "sha256": "effff9f4022d32d2d3a17f4bfb5b33a940060ac884b962d0cc2da53558a9515d"
+  }
+}

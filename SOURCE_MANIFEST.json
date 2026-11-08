@@ -1,0 +1,702 @@
+[
+  {
+    "path": "00_workflow/followup.sh",
+    "source": "input_zip/00_workflow/followup.sh",
+    "sha256": "41843aa8abc5c1cf6904168d00c4f666a37eb4eb67f79cd6fd50eaf7c0c2a0ec"
+  },
+  {
+    "path": "01_frequency_forecasts/extract_spectra.py",
+    "source": "input_zip/01_frequency_forecasts/extract_spectra.py",
+    "sha256": "ead548480c482a82e74d4626c77c1a053483f743b8ec96676eeb3039cf90af13"
+  },
+  {
+    "path": "01_frequency_forecasts/forecast_bands.py",
+    "source": "input_zip/01_frequency_forecasts/forecast_bands.py",
+    "sha256": "c4d7c07901cd94608334d7069f0d2353463f8aa305c083007b9fca411eb10dfd"
+  },
+  {
+    "path": "01_frequency_forecasts/validate_joint_covariance.py",
+    "source": "input_zip/01_frequency_forecasts/validate_joint_covariance.py",
+    "sha256": "f6fbfdd9e46bf377a678c56450cc52f90789f5fcb4b4d48bb61d3c9eaed309f4"
+  },
+  {
+    "path": "01_frequency_forecasts/README.md",
+    "source": "input_zip/01_frequency_forecasts/README.md",
+    "sha256": "693cddadb0445a4a3d57193733a10a4000b6686baee72af59f1a398d563ed13d"
+  },
+  {
+    "path": "01_frequency_forecasts/build_noise.py",
+    "source": "input_zip/01_frequency_forecasts/build_noise.py",
+    "sha256": "1e900c19c6f7ca05c1470a61fd4a96a3263388cf7a88ffa8722d69dad1337cfc"
+  },
+  {
+    "path": "01_frequency_forecasts/common.py",
+    "source": "input_zip/01_frequency_forecasts/common.py",
+    "sha256": "d694aec6758a3730dda5d2eceb1ef341bd9662733d0c2dee0069e96491665c71"
+  },
+  {
+    "path": "01_frequency_forecasts/self_test.py",
+    "source": "input_zip/01_frequency_forecasts/self_test.py",
+    "sha256": "15e3265069dda26163ae6ca07fbd930eec8022a0c46efad7da311eae0c63ae55"
+  },
+  {
+    "path": "01_frequency_forecasts/VALIDATION.json",
+    "source": "input_zip/01_frequency_forecasts/VALIDATION.json",
+    "sha256": "69abb214506310ed0107f80d84aeae723ddd59637e1052ca860fc221ea39b5ba"
+  },
+  {
+    "path": "01_frequency_forecasts/SHA256SUMS.txt",
+    "source": "input_zip/01_frequency_forecasts/SHA256SUMS.txt",
+    "sha256": "49157ee605b12ae15bc8a596613a298cec16c07777a1a49b88a3b8544bc36cf5"
+  },
+  {
+    "path": "01_frequency_forecasts/response_diagnostics.py",
+    "source": "input_zip/01_frequency_forecasts/response_diagnostics.py",
+    "sha256": "2b36da524b9e1f48442ddc0fa60db77f1a8a0a7b91e31f1a8b94c6a5388e927f"
+  },
+  {
+    "path": "01_frequency_forecasts/package_results.py",
+    "source": "input_zip/01_frequency_forecasts/package_results.py",
+    "sha256": "1c3490174423b95905233494b09637780d0c8fd3fd2505711a9eaab572417de2"
+  },
+  {
+    "path": "01_frequency_forecasts/vendor/compare_histories.py",
+    "source": "input_zip/01_frequency_forecasts/vendor/compare_histories.py",
+    "sha256": "fa5122846e1054bd7b1b0e21742fcd61c755645ada2ad37a2120388530ddd369"
+  },
+  {
+    "path": "01_frequency_forecasts/vendor/reforecast_resolution.py",
+    "source": "input_zip/01_frequency_forecasts/vendor/reforecast_resolution.py",
+    "sha256": "d883840badcecaa55104919edc1ecb18f5496f51c614ebde1942e0fc26610e75"
+  },
+  {
+    "path": "01_frequency_forecasts/vendor/signal_core.py",
+    "source": "input_zip/01_frequency_forecasts/vendor/signal_core.py",
+    "sha256": "d55ac8f9a5a8b4e709d82a8cf437b49139bf399bde024d04755c268932af4589"
+  },
+  {
+    "path": "02_seven_model_simulations/batch130.py",
+    "source": "input_zip/02_seven_model_simulations/batch130.py",
+    "sha256": "3e9f7d72631dc5309f996b6efb84e23614372877c31b5198d55b88dae3d2e349"
+  },
+  {
+    "path": "02_seven_model_simulations/reference_140_configs.json",
+    "source": "input_zip/02_seven_model_simulations/reference_140_configs.json",
+    "sha256": "bc0ca2fe07333ebb413bf84e2a206c2806d8167dc47262041da8682022b8ced5"
+  },
+  {
+    "path": "02_seven_model_simulations/01_run.sh",
+    "source": "input_zip/02_seven_model_simulations/01_run.sh",
+    "sha256": "8ed6b4d1ce22ffddb4ce02b7a0a08fd942a530a06fc0a63570027095e1b51d57"
+  },
+  {
+    "path": "02_seven_model_simulations/README.md",
+    "source": "input_zip/02_seven_model_simulations/README.md",
+    "sha256": "49a0ab2692990f1857f10858e89e89362b9ac0b0de66023229826eae2145de43"
+  },
+  {
+    "path": "02_seven_model_simulations/self_test.py",
+    "source": "input_zip/02_seven_model_simulations/self_test.py",
+    "sha256": "702f5bb77b63616c5a85d3b5bae7939a8613ab4f0781054efe4819843386b756"
+  },
+  {
+    "path": "02_seven_model_simulations/vendor/reference_F140.json",
+    "source": "input_zip/02_seven_model_simulations/vendor/reference_F140.json",
+    "sha256": "aa8366ebb30154e4217285a95a314124f7e11abfad13bfd27dcf18448c68f2cd"
+  },
+  {
+    "path": "02_seven_model_simulations/vendor/seven_models.py",
+    "source": "input_zip/02_seven_model_simulations/vendor/seven_models.py",
+    "sha256": "2598b540551f4a84e080b6d1c05ad3e038064bd12809e2aff56c9eb742336787"
+  },
+  {
+    "path": "02_seven_model_simulations/vendor/physics_worker.py",
+    "source": "input_zip/02_seven_model_simulations/vendor/physics_worker.py",
+    "sha256": "1074a533fefe6969f996fbbed5cec3125617074341d2536342fe04bdccb6edb9"
+  },
+  {
+    "path": "03_matched_response/input_review.json",
+    "source": "input_zip/03_matched_response/input_review.json",
+    "sha256": "2800aa63d435d88d0b5676b6b1e4e2341d78faf023e3cc41db9df9519c2dc70a"
+  },
+  {
+    "path": "03_matched_response/sensitivity.py",
+    "source": "input_zip/03_matched_response/sensitivity.py",
+    "sha256": "d7006df3cd1c4758cc23d4c68bb6b87bb066bdd782171978c1f6680ffc0c9c8a"
+  },
+  {
+    "path": "03_matched_response/run.sh",
+    "source": "input_zip/03_matched_response/run.sh",
+    "sha256": "eb58eee37776ae20972a2ffe6fe52d86c23a6b3d73917b5b1f7169a19575b2fc"
+  },
+  {
+    "path": "03_matched_response/README.md",
+    "source": "input_zip/03_matched_response/README.md",
+    "sha256": "ad7d489d0c1c2dbb2f1042b66597f43fd8626e3bd97b109282488313fe665182"
+  },
+  {
+    "path": "03_matched_response/cleaner.py",
+    "source": "input_zip/03_matched_response/cleaner.py",
+    "sha256": "7abd580df0507400eadabc3c84a4aa18c415d716a21e598b06348e12c0cbb352"
+  },
+  {
+    "path": "03_matched_response/run_beams.py",
+    "source": "input_zip/03_matched_response/run_beams.py",
+    "sha256": "5edac44821f881d3f972a1e3cb7ab79450bf7aec326e0125994d95e969d9d59d"
+  },
+  {
+    "path": "03_matched_response/common.py",
+    "source": "input_zip/03_matched_response/common.py",
+    "sha256": "c8324ef1637fa62bc501f6b617e42848f5adfd4c6d23ffd2d049d378134f3b8f"
+  },
+  {
+    "path": "03_matched_response/self_test.py",
+    "source": "input_zip/03_matched_response/self_test.py",
+    "sha256": "67f89a9ed8963f5090eb3414587939cf73087ac25075289758c116e97fe3f37a"
+  },
+  {
+    "path": "03_matched_response/pipeline.py",
+    "source": "input_zip/03_matched_response/pipeline.py",
+    "sha256": "8638e565a83652af6a0aee89768e5471b73c008b7cdee818198be484d4b8ab62"
+  },
+  {
+    "path": "03_matched_response/noise.py",
+    "source": "input_zip/03_matched_response/noise.py",
+    "sha256": "3143fada38e690002166ec8d59c531a684089e7826aad3c98df1de74df3058bc"
+  },
+  {
+    "path": "03_matched_response/estimator.py",
+    "source": "input_zip/03_matched_response/estimator.py",
+    "sha256": "33b14779bfc94e8695b2afa19c9911045d28147a2d3533276128fd8881de1309"
+  },
+  {
+    "path": "03_matched_response/SHA256SUMS",
+    "source": "input_zip/03_matched_response/SHA256SUMS",
+    "sha256": "6ea7eb18ee2026bbfcecec6a0243079a6b99c72f8f2dad53d113cd74d3046364"
+  },
+  {
+    "path": "03_matched_response/report.py",
+    "source": "input_zip/03_matched_response/report.py",
+    "sha256": "ab0e00e0184040582db952f60f57e4252c4eb7c91d7815ba243799fcc5a6b477"
+  },
+  {
+    "path": "03_matched_response/prepare.py",
+    "source": "input_zip/03_matched_response/prepare.py",
+    "sha256": "2cd1f1cf71836b95c390f26f9481cc85e324d434cd9e1b0ee23ecbf1bbdc43dd"
+  },
+  {
+    "path": "03_matched_response/analyze.py",
+    "source": "input_zip/03_matched_response/analyze.py",
+    "sha256": "756612be3cdd2807055d55ba1849defea0c64dd24d1710cb5bde6497d2aa487d"
+  },
+  {
+    "path": "03_matched_response/inputs/reference140_seed23456.npz",
+    "source": "input_zip/03_matched_response/inputs/reference140_seed23456.npz",
+    "sha256": "414cec47aad6749aabdd60616764596ffd3049557881f6e83438ed700d58e86f"
+  },
+  {
+    "path": "03_matched_response/inputs/provenance.json",
+    "source": "input_zip/03_matched_response/inputs/provenance.json",
+    "sha256": "1b884eb7b2d24af84e5677c5e510e795c8314ed6a49064fb4f53d78fad9187c1"
+  },
+  {
+    "path": "03_matched_response/inputs/catalogue.csv",
+    "source": "input_zip/03_matched_response/inputs/catalogue.csv",
+    "sha256": "c355ea0d17b6d9bf71429d1ca23d73c35df512416ba1ab59fd16e89b9aa57e38"
+  },
+  {
+    "path": "03_matched_response/inputs/reference140_seed34567.npz",
+    "source": "input_zip/03_matched_response/inputs/reference140_seed34567.npz",
+    "sha256": "7c64c62df50129ec67dc73b89ff2f3887c8d837e3d17f76b71c2902672befb31"
+  },
+  {
+    "path": "03_matched_response/inputs/reference_140_configs.json",
+    "source": "input_zip/03_matched_response/inputs/reference_140_configs.json",
+    "sha256": "bc0ca2fe07333ebb413bf84e2a206c2806d8167dc47262041da8682022b8ced5"
+  },
+  {
+    "path": "03_matched_response/inputs/reference140_provenance.json",
+    "source": "input_zip/03_matched_response/inputs/reference140_provenance.json",
+    "sha256": "2bc46274cacbaea9891f5477b826b1245a9b4f16e0e800e51db916dd3a6c3a5a"
+  },
+  {
+    "path": "03_matched_response/inputs/reference140_seed12345.npz",
+    "source": "input_zip/03_matched_response/inputs/reference140_seed12345.npz",
+    "sha256": "ee2122b7d2362acd446c815d263aa5455dcce94b4e42b114a48568aa856573bb"
+  },
+  {
+    "path": "03_matched_response/inputs/frozen.npz",
+    "source": "input_zip/03_matched_response/inputs/frozen.npz",
+    "sha256": "543c19cf0c9ee4ca11938a10adea8e081c4901fb96d2e604bf7d639b473ef470"
+  },
+  {
+    "path": "03_matched_response/inputs/station_antennas.csv",
+    "source": "input_zip/03_matched_response/inputs/station_antennas.csv",
+    "sha256": "cadd66b10c3ce94927069e250f108d2f418fef90a4e253bc392d289fdd336c55"
+  },
+  {
+    "path": "04_heating_followup/code/interpolation.py",
+    "source": "input_zip/04_heating_followup/code/interpolation.py",
+    "sha256": "33be841692450a203abeedb1f61f1c5f96c664015583903372e69ccbc1920d45"
+  },
+  {
+    "path": "04_heating_followup/code/PLAN_minimum.json",
+    "source": "input_zip/04_heating_followup/code/PLAN_minimum.json",
+    "sha256": "2657bb76c556435fbdfa6fe7a54809e400a963b5aec28a12005078800d7905e6"
+  },
+  {
+    "path": "04_heating_followup/code/PACKAGE_SHA256.json",
+    "source": "input_zip/04_heating_followup/code/PACKAGE_SHA256.json",
+    "sha256": "89e1cba9626a59499b9f14a4d332afd81f62364c9410a3a1f34568d394f473bc"
+  },
+  {
+    "path": "04_heating_followup/code/run_scan.py",
+    "source": "input_zip/04_heating_followup/code/run_scan.py",
+    "sha256": "c3ff52455689ae97c913de1a737f76e2514f02713a6c1fe49608f4e8bdb771b6"
+  },
+  {
+    "path": "04_heating_followup/code/common.py",
+    "source": "input_zip/04_heating_followup/code/common.py",
+    "sha256": "dee1f30dfefebc6ed40f937f342da90ba9975bfeec68b59aca619620d5cd5aea"
+  },
+  {
+    "path": "04_heating_followup/code/self_test.py",
+    "source": "input_zip/04_heating_followup/code/self_test.py",
+    "sha256": "fe6e8680a6659e9141018be2ec1b70102b2a8f825b1e30ab5e4a3a561605211d"
+  },
+  {
+    "path": "04_heating_followup/code/analyze_scan.py",
+    "source": "input_zip/04_heating_followup/code/analyze_scan.py",
+    "sha256": "5de709caef8a639a741eab36f0fc56d04147e91dde1fdfac59500bd2e1b33145"
+  },
+  {
+    "path": "04_heating_followup/code/likelihood.py",
+    "source": "input_zip/04_heating_followup/code/likelihood.py",
+    "sha256": "c54dd68a922f95baa49c0b211f2e70bd0aeacad037dbde1fa4ddc9d19adc87eb"
+  },
+  {
+    "path": "04_heating_followup/code/PREPARATION_VALIDATION.json",
+    "source": "input_zip/04_heating_followup/code/PREPARATION_VALIDATION.json",
+    "sha256": "97bcc5f8b1a8d275447cb32033cff8cbb22f2eca307fd9182bdc977de4193bdf"
+  },
+  {
+    "path": "04_heating_followup/code/synthetic_analysis_test.py",
+    "source": "input_zip/04_heating_followup/code/synthetic_analysis_test.py",
+    "sha256": "1a98ab11b88eee1ffbdf8efd86d975bd28b58e6ca03e69e466cb5bad26203f7a"
+  },
+  {
+    "path": "04_heating_followup/code/package_results.py",
+    "source": "input_zip/04_heating_followup/code/package_results.py",
+    "sha256": "0f1baf23a33f6dae02409ea679bb1fc460a51911d2737df98dd471ee1d31d3c7"
+  },
+  {
+    "path": "04_heating_followup/code/evidence/reviewed140_spectra.csv",
+    "source": "input_zip/04_heating_followup/code/evidence/reviewed140_spectra.csv",
+    "sha256": "30282df2eb59bfc7436e1507bb071dad12eb29fe920c255135efd7d0a48f1163"
+  },
+  {
+    "path": "04_heating_followup/code/vendor/reference_configs.json",
+    "source": "input_zip/04_heating_followup/code/vendor/reference_configs.json",
+    "sha256": "ad427b65ec3d1f796c584add2cd843b55d6c6469cf71c1da56aa0b2efe6d1454"
+  },
+  {
+    "path": "04_heating_followup/code/vendor/run_physics.py",
+    "source": "input_zip/04_heating_followup/code/vendor/run_physics.py",
+    "sha256": "d99f74327f48b1e275427ea822b7652d3871f49d970dc77e6adcf57e3e2cabd1"
+  },
+  {
+    "path": "04_heating_followup/code/vendor/signal_core.py",
+    "source": "input_zip/04_heating_followup/code/vendor/signal_core.py",
+    "sha256": "d55ac8f9a5a8b4e709d82a8cf437b49139bf399bde024d04755c268932af4589"
+  },
+  {
+    "path": "04_heating_followup/code/evidence/frequency_analysis/forecasts/130MHz/native_N128.npz",
+    "source": "input_zip/04_heating_followup/code/evidence/frequency_analysis/forecasts/130MHz/native_N128.npz",
+    "sha256": "e2c3ad6c96c542947070d18bec77f86ce36b1faff96e6041a531cdfd9b1a41d4"
+  },
+  {
+    "path": "04_heating_followup/code/evidence/frequency_analysis/forecasts/140MHz/native_N128.npz",
+    "source": "input_zip/04_heating_followup/code/evidence/frequency_analysis/forecasts/140MHz/native_N128.npz",
+    "sha256": "f578025569ef4db6e25b9ccb7a7174029b3ec78b3c8c35687f92973143c13752"
+  },
+  {
+    "path": "06_visibility_distance/validation.csv",
+    "source": "output/mnras_revision_20261104/analysis_visibility/validation.csv",
+    "sha256": "82a2f3e437ae5d1b9496888070c955815ea2a9012300f8b91467d209adda0c5f"
+  },
+  {
+    "path": "06_visibility_distance/provenance.json",
+    "source": "output/mnras_revision_20261104/analysis_visibility/provenance.json",
+    "sha256": "c5855f9f4c6d690b85d75a3a9b5c79504d72e5ca1e6e5eb742aa4c66e4726598"
+  },
+  {
+    "path": "06_visibility_distance/analyze_visibility.py",
+    "source": "output/mnras_revision_20261104/analysis_visibility/analyze_visibility.py",
+    "sha256": "6a4e2875a8853cfaf477b8d2e78bc4ec17d4480530cc0f439273969be1abae6c"
+  },
+  {
+    "path": "06_visibility_distance/pseudoinverse_stability.csv",
+    "source": "output/mnras_revision_20261104/analysis_visibility/pseudoinverse_stability.csv",
+    "sha256": "9f7bb6373fa55c257c17733cc166389e675b7d25ca82ac695866e0ba5b2f69ad"
+  },
+  {
+    "path": "06_visibility_distance/distances.csv",
+    "source": "output/mnras_revision_20261104/analysis_visibility/distances.csv",
+    "sha256": "e4d88489517370be87a3010cb435a7072127e07a2fad2b83be77492c93a72157"
+  },
+  {
+    "path": "06_visibility_distance/README.md",
+    "source": "output/mnras_revision_20261104/analysis_visibility/README.md",
+    "sha256": "6a1aac594ba76188cfe2c67c2ac52c02203a154eff7ee63ced2803f272f2c30d"
+  },
+  {
+    "path": "06_visibility_distance/per_output.csv",
+    "source": "output/mnras_revision_20261104/analysis_visibility/per_output.csv",
+    "sha256": "9cea83e513c7d0f174c609cfff6d45a1b9eb7c632c5b048e68c07563dd635dfa"
+  },
+  {
+    "path": "paper_snapshot/output/fig3_preview_20261104/plot_preview.py",
+    "source": "output/fig3_preview_20261104/plot_preview.py",
+    "sha256": "dc372dc14ce3a722e38b314188c7ebb3426de9cec3fad1bee73897783e03c0d2"
+  },
+  {
+    "path": "paper_snapshot/output/fig5_compact_20261104/plot_fig5.py",
+    "source": "output/fig5_compact_20261104/plot_fig5.py",
+    "sha256": "abc178326bcce7fc96c1df76e1c9e5bdafc5d4bcdd1d7baef394de975cce8c81"
+  },
+  {
+    "path": "paper_snapshot/output/submission_edit_20261104/figure/plot_heating.py",
+    "source": "output/submission_edit_20261104/figure/plot_heating.py",
+    "sha256": "91b748fa4e697f67cca081960f1fdd2b496aead5be046b744f713315f488d212"
+  },
+  {
+    "path": "paper_snapshot/matched_response_review/figure_source/plot_matched.py",
+    "source": "matched_response_review/figure_source/plot_matched.py",
+    "sha256": "d555b6541e4472af113f9e511a1ebb26958fac547b2c08af5fd5796bc817e5ca"
+  },
+  {
+    "path": "paper_snapshot/matched_response_review/figure_source/physical_powers.npz",
+    "source": "matched_response_review/figure_source/physical_powers.npz",
+    "sha256": "0187ee8aab48753f89b6fa48ce4faba13919991b36ee9d696463616353d6bcce"
+  },
+  {
+    "path": "paper_snapshot/matched_response_review/figure_source/fig18.npz",
+    "source": "matched_response_review/figure_source/fig18.npz",
+    "sha256": "336efd614830144ec8badd9fa777ce60781247c585d53946d4f4c300b6fae918"
+  },
+  {
+    "path": "paper_snapshot/physical_followup_review/spectra.csv",
+    "source": "physical_followup_review/spectra.csv",
+    "sha256": "dab0fa65aa67404c006dae8d5a460dc9a7441e675d48bb5876f9ff66a5a4761d"
+  },
+  {
+    "path": "paper_snapshot/physical_followup_review/scan_metrics.csv",
+    "source": "physical_followup_review/scan_metrics.csv",
+    "sha256": "b25e4ce1885d5c7aab75111bea2699149f108b5c7c20c5d5fff87e7dcb94c64d"
+  },
+  {
+    "path": "paper_snapshot/interpretation_review/results/shape/shape_summary.csv",
+    "source": "interpretation_review/results/shape/shape_summary.csv",
+    "sha256": "bfe1ab2f2d3137e72d45b968a0a824361fbef0ef172f5bcb7a0d593e6cf9a355"
+  },
+  {
+    "path": "paper_snapshot/focus_review/evidence/provenance.json",
+    "source": "focus_review/evidence/provenance.json",
+    "sha256": "b3911e596130c2f82c854ed5bae034c810d590822f0baba3b01ee4dff11469fb"
+  },
+  {
+    "path": "paper_snapshot/focus_review/evidence/seed_metrics.csv",
+    "source": "focus_review/evidence/seed_metrics.csv",
+    "sha256": "18a849dc62f750c7a0ec47164609b064c8ed5072fe4e24b282e32138ecb5c9b4"
+  },
+  {
+    "path": "paper_snapshot/focus_review/evidence/box_metrics.csv",
+    "source": "focus_review/evidence/box_metrics.csv",
+    "sha256": "8d1754c7aaec4e074e369eb4e6230de1d3a3d6c3ec66a2b40295f3830ef456c8"
+  },
+  {
+    "path": "paper_snapshot/focus_review/evidence/covariance_comparison.csv",
+    "source": "focus_review/evidence/covariance_comparison.csv",
+    "sha256": "effff9f4022d32d2d3a17f4bfb5b33a940060ac884b962d0cc2da53558a9515d"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/2_followup_results_140_s34567/density_diagnostics.csv",
+    "source": "output/followup_review_20261104/returned/results/2_followup_results_140_s34567/density_diagnostics.csv",
+    "sha256": "c22801a8f4a0f5ec0c4c39334bf84272e8f444f4f3f47b3542e38109ac2c113f"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/2_followup_results_140_s34567/best_sampled.csv",
+    "source": "output/followup_review_20261104/returned/results/2_followup_results_140_s34567/best_sampled.csv",
+    "sha256": "be9daa7f3291cf8fb772d135eed60be784339d21d0801e351566833b9b3a2516"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/2_followup_results_140_s34567/scan_metrics.csv",
+    "source": "output/followup_review_20261104/returned/results/2_followup_results_140_s34567/scan_metrics.csv",
+    "sha256": "d0b4aa9a196423a1aa0447583d22a236dace04d920a6887b6f011964cf726787"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/2_followup_results_140_s34567/fixed_candidate_transfer.csv",
+    "source": "output/followup_review_20261104/returned/results/2_followup_results_140_s34567/fixed_candidate_transfer.csv",
+    "sha256": "7525247e5fbf124df257c333b7f1968eaab0cc0155ae421f3ced64f0a9221db7"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/2_followup_results_140_s34567/spectra.csv",
+    "source": "output/followup_review_20261104/returned/results/2_followup_results_140_s34567/spectra.csv",
+    "sha256": "e5939be1f259672e0efe39831116de4fb6aa989693a29b7852be553116611776"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/2_followup_results_140_s34567/control_regression.csv",
+    "source": "output/followup_review_20261104/returned/results/2_followup_results_140_s34567/control_regression.csv",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/2_followup_results_140_s34567/thermal_history.csv",
+    "source": "output/followup_review_20261104/returned/results/2_followup_results_140_s34567/thermal_history.csv",
+    "sha256": "f1d3705c844a67b3a8853bf0be54c02e01e734026e5c055e9bbfc9b167378ef4"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/0_followup_results_130_s12345/density_diagnostics.csv",
+    "source": "output/followup_review_20261104/returned/results/0_followup_results_130_s12345/density_diagnostics.csv",
+    "sha256": "c33ca38d759337efeaa2e468418a09f495eb9d8d0d07157917af80a3c24457df"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/0_followup_results_130_s12345/best_sampled.csv",
+    "source": "output/followup_review_20261104/returned/results/0_followup_results_130_s12345/best_sampled.csv",
+    "sha256": "0a7b6ffdbe02d8d88e285826ac7a93705d735efdb3a7f1aa24d9e76a97143bf8"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/0_followup_results_130_s12345/scan_metrics.csv",
+    "source": "output/followup_review_20261104/returned/results/0_followup_results_130_s12345/scan_metrics.csv",
+    "sha256": "13d573276164d465cdddf43e0bc34632648b9f2c4dd58ff402e269312a8e9a28"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/0_followup_results_130_s12345/fixed_candidate_transfer.csv",
+    "source": "output/followup_review_20261104/returned/results/0_followup_results_130_s12345/fixed_candidate_transfer.csv",
+    "sha256": "f335e8ff2f8de8b4442ece94e9e430ef0a34b2d73da33c2dbaaff5c12dcbef34"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/0_followup_results_130_s12345/spectra.csv",
+    "source": "output/followup_review_20261104/returned/results/0_followup_results_130_s12345/spectra.csv",
+    "sha256": "2edfb71bd87cf254179f6f7f3b1db6158ffdc136a6a9c4930ea7bd1989b4f849"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/0_followup_results_130_s12345/control_regression.csv",
+    "source": "output/followup_review_20261104/returned/results/0_followup_results_130_s12345/control_regression.csv",
+    "sha256": "fad0cb05fb66595d2fe92e3397e3832a7447315e5ba6c3218bf98d9c247496d7"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/0_followup_results_130_s12345/thermal_history.csv",
+    "source": "output/followup_review_20261104/returned/results/0_followup_results_130_s12345/thermal_history.csv",
+    "sha256": "a750dd575d9ea221a7b12a3bef7d752472e4229e3200e8230b3c4275aabdc80d"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/1_followup_results_140_s23456/density_diagnostics.csv",
+    "source": "output/followup_review_20261104/returned/results/1_followup_results_140_s23456/density_diagnostics.csv",
+    "sha256": "e0134beadafc9aff0af57796104e6eff504daeab9b61d0302a6c5dfb2caad021"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/1_followup_results_140_s23456/best_sampled.csv",
+    "source": "output/followup_review_20261104/returned/results/1_followup_results_140_s23456/best_sampled.csv",
+    "sha256": "334abcf278743d630e86f38cf9f6fafca93c300a47a61eb4ca6b9185049af3ca"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/1_followup_results_140_s23456/scan_metrics.csv",
+    "source": "output/followup_review_20261104/returned/results/1_followup_results_140_s23456/scan_metrics.csv",
+    "sha256": "3f8505bddfe4a7ed92716c63512b90eff7a87bbcbbe14e560992ee7ba1cff48e"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/1_followup_results_140_s23456/fixed_candidate_transfer.csv",
+    "source": "output/followup_review_20261104/returned/results/1_followup_results_140_s23456/fixed_candidate_transfer.csv",
+    "sha256": "fb79508ae93ea606cf395a89f81a7bba27933b4cf5481c0fc4fc3f8f7fc38e06"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/1_followup_results_140_s23456/spectra.csv",
+    "source": "output/followup_review_20261104/returned/results/1_followup_results_140_s23456/spectra.csv",
+    "sha256": "0891ba2613f5bc28d0328d3446a89c3fd3df826fc6b7fa43d311ee7b8f48fc5d"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/1_followup_results_140_s23456/control_regression.csv",
+    "source": "output/followup_review_20261104/returned/results/1_followup_results_140_s23456/control_regression.csv",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "paper_snapshot/output/followup_review_20261104/returned/results/1_followup_results_140_s23456/thermal_history.csv",
+    "source": "output/followup_review_20261104/returned/results/1_followup_results_140_s23456/thermal_history.csv",
+    "sha256": "664c6e2c262c07dee1b3af43999201ef37d6b75f6c04ba4e87f48eb72cf09141"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/density_diagnostics.csv",
+    "source": "output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/density_diagnostics.csv",
+    "sha256": "6b9829c2ff2adc65c2ed8287b6434adb36aaa7c5090706bb1b4eeec03e7b4e55"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/best_sampled.csv",
+    "source": "output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/best_sampled.csv",
+    "sha256": "37f1f2585195572fcf8be2796adf0acf89d7d852d7d0828b5a414f5c8d94eefb"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/scan_metrics.csv",
+    "source": "output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/scan_metrics.csv",
+    "sha256": "61232058e5f5507c450ec2e1bab1ef62a07c2b4c2242144acae7a4cd15be21bf"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/fixed_candidate_transfer.csv",
+    "source": "output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/fixed_candidate_transfer.csv",
+    "sha256": "9ebcb087ab87804f00323f8055af60e6330eb54a7357d7a79ae61941554989e8"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/spectra.csv",
+    "source": "output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/spectra.csv",
+    "sha256": "8166a82b795558f7a8cc4961b415a6dfb86f33658cdd7868b60442f2147dbe45"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/control_regression.csv",
+    "source": "output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/control_regression.csv",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/thermal_history.csv",
+    "source": "output/heating_130_update_20261104/returned/results/0_fixed_heating_130_s23456_analysis/thermal_history.csv",
+    "sha256": "b2ec332020141586146270040fb2bbe53c2bc8bce94434cd39442781f71bef5c"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/density_diagnostics.csv",
+    "source": "output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/density_diagnostics.csv",
+    "sha256": "f538940391f2d938173d52d42aa74a8986f31bf332e0e6f5dd73f02d3b9ae748"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/best_sampled.csv",
+    "source": "output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/best_sampled.csv",
+    "sha256": "3fc66ac18f58632b3794af3c9ce448d87fbc58b8c102df9713a8770416146f41"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/scan_metrics.csv",
+    "source": "output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/scan_metrics.csv",
+    "sha256": "d742562d9d375bbdc8a62856f985ff3b28379e2ae231060796c84b65d1086fec"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/fixed_candidate_transfer.csv",
+    "source": "output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/fixed_candidate_transfer.csv",
+    "sha256": "0928da8673ca5cbb7b866d43ba3b054f5f95c7f21148f7c6ef71a15a4e3c0521"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/spectra.csv",
+    "source": "output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/spectra.csv",
+    "sha256": "173f9b94f65fe2a504e48bc47cbeacd85c9925b01d4031cfaf69949653ddc10b"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/control_regression.csv",
+    "source": "output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/control_regression.csv",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "paper_snapshot/output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/thermal_history.csv",
+    "source": "output/heating_130_update_20261104/returned/results/1_fixed_heating_130_s34567_analysis/thermal_history.csv",
+    "sha256": "5a2ceabecc3895a41494b6e2a575bd66741619c63931136eae3175db14767a3f"
+  },
+  {
+    "path": "derived_tables/frequency_review/peak_detection.csv",
+    "source": "frequency_review/peak_detection.csv",
+    "sha256": "ae5774b44a69ea550c8a4937b99600bed24b2bd221c7652ed6dcd2a5a0a34d42"
+  },
+  {
+    "path": "derived_tables/frequency_review/pair_F_Mplus.csv",
+    "source": "frequency_review/pair_F_Mplus.csv",
+    "sha256": "5931bd80c1c3e76aeeb715ffd27b89ba4ec7c07074543ae63093d74c1e53b95e"
+  },
+  {
+    "path": "derived_tables/frequency_review/resolution_frequency_summary.csv",
+    "source": "frequency_review/resolution_frequency_summary.csv",
+    "sha256": "0e0a753c991d032b378d009deb073cdec233e36cbf5a287e1e05ce5be6ae5b5a"
+  },
+  {
+    "path": "derived_tables/frequency_review/pair_Mminus_Iminus.csv",
+    "source": "frequency_review/pair_Mminus_Iminus.csv",
+    "sha256": "ab7665ac5c539095f1445313eb5f30e3df09dce01b9231524b069cee4a56ea92"
+  },
+  {
+    "path": "derived_tables/interpretation_review/results/shape/shape_summary.csv",
+    "source": "interpretation_review/results/shape/shape_summary.csv",
+    "sha256": "bfe1ab2f2d3137e72d45b968a0a824361fbef0ef172f5bcb7a0d593e6cf9a355"
+  },
+  {
+    "path": "derived_tables/interpretation_review/results/shape/scale_contributions.csv",
+    "source": "interpretation_review/results/shape/scale_contributions.csv",
+    "sha256": "3d0d6caa6664b42139b32222c3109c6ca0c7100ee135e949a565c2af24f2555a"
+  },
+  {
+    "path": "derived_tables/interpretation_review/results/response130/response_summary.csv",
+    "source": "interpretation_review/results/response130/response_summary.csv",
+    "sha256": "2c04b16fd3012db404b4b2b2496cde92fe1195e20d2aa753baa3f3e930512a94"
+  },
+  {
+    "path": "derived_tables/interpretation_review/results/response130/band_means.csv",
+    "source": "interpretation_review/results/response130/band_means.csv",
+    "sha256": "0701d9ea7b04c49a62ef8bd396c8094a3c92249f7ee9a8417d0c0a6abc1ca035"
+  },
+  {
+    "path": "derived_tables/interpretation_review/results/lightcone/lightcone_directions.csv",
+    "source": "interpretation_review/results/lightcone/lightcone_directions.csv",
+    "sha256": "684d04c6ae7c767530a09820a0cb1ea7ae258168301ddc5f0a434193a6c0b05c"
+  },
+  {
+    "path": "derived_tables/interpretation_review/results/stage/matched_spectra.csv",
+    "source": "interpretation_review/results/stage/matched_spectra.csv",
+    "sha256": "539b2485967b23cf8b4bd2f1b9e267d90160071e8d47c73bea8a299b539a8348"
+  },
+  {
+    "path": "derived_tables/interpretation_review/results/stage/matched_stage.csv",
+    "source": "interpretation_review/results/stage/matched_stage.csv",
+    "sha256": "6189ab15f7cd334a22888312fe553fc2a0f0e20c83e15b71a515a25ef1007fa0"
+  },
+  {
+    "path": "derived_tables/interpretation_review/results/response140/response_summary.csv",
+    "source": "interpretation_review/results/response140/response_summary.csv",
+    "sha256": "4746a9a4ddb49e8f407ee586bc7199b36b6029e87453bf48f7cffa2ef09f14c3"
+  },
+  {
+    "path": "derived_tables/interpretation_review/results/response140/band_means.csv",
+    "source": "interpretation_review/results/response140/band_means.csv",
+    "sha256": "a66a657049fc6a25412bda92f1f57ed4167117b7117c9d8f97fda291d09baf7a"
+  },
+  {
+    "path": "derived_tables/physical_followup_review/density_diagnostics.csv",
+    "source": "physical_followup_review/density_diagnostics.csv",
+    "sha256": "bb94731323cfff7d6e5afbc87c85bbf44026a52dad21a202784a5b8b5b9ec73a"
+  },
+  {
+    "path": "derived_tables/physical_followup_review/reviewed140_repeatability.csv",
+    "source": "physical_followup_review/reviewed140_repeatability.csv",
+    "sha256": "f12150ac9b89f1a24a1290df2c0059826db603780882f261779bfb17cb096ece"
+  },
+  {
+    "path": "derived_tables/physical_followup_review/audit_residuals.csv",
+    "source": "physical_followup_review/audit_residuals.csv",
+    "sha256": "df03c02dc7ccb641fe3c5da2dbf98e2c02b923b9ead1c2101a31bf9b0798793b"
+  },
+  {
+    "path": "derived_tables/physical_followup_review/scan_metrics.csv",
+    "source": "physical_followup_review/scan_metrics.csv",
+    "sha256": "b25e4ce1885d5c7aab75111bea2699149f108b5c7c20c5d5fff87e7dcb94c64d"
+  },
+  {
+    "path": "derived_tables/physical_followup_review/fixed_candidate_transfer.csv",
+    "source": "physical_followup_review/fixed_candidate_transfer.csv",
+    "sha256": "49be26f481805c8fcc7b35a1fc8996448e18d0d2337af386a77e754abc2160ea"
+  },
+  {
+    "path": "derived_tables/physical_followup_review/spectra.csv",
+    "source": "physical_followup_review/spectra.csv",
+    "sha256": "dab0fa65aa67404c006dae8d5a460dc9a7441e675d48bb5876f9ff66a5a4761d"
+  },
+  {
+    "path": "derived_tables/physical_followup_review/control_regression.csv",
+    "source": "physical_followup_review/control_regression.csv",
+    "sha256": "f5dfaedbddfa5de2ba56b1789a1d9291e287507ed8262852cd12a38268bff501"
+  },
+  {
+    "path": "derived_tables/physical_followup_review/thermal_history.csv",
+    "source": "physical_followup_review/thermal_history.csv",
+    "sha256": "ac8652689ff074764936b71eb894279985b1f43287e2264d861139fd471c2efb"
+  }
+]

@@ -1,0 +1,4 @@
+seed,frequency_MHz,case,selection_metric,target,covariance,best_sampled_L_X,D_best_sampled_fresh,D_baseline_fresh,distance_ratio_fresh,best_on_boundary,A_fresh_at_best,D_shape_fresh_at_best,D_archived_F_secondary_at_fresh_best
+34567,130,beam_wedge,D_fresh_F,same_seed_fresh_F,archived_seed12345_F,40.0,19.672933420501316,19.672933420501316,1.0,True,1.1380883322351643,17.44453992731043,20.732522236087803
+34567,130,horizon_buffer,D_fresh_F,same_seed_fresh_F,archived_seed12345_F,40.0,2.199034231145567,2.199034231145567,1.0,True,1.0525213024368676,2.114559776913769,2.4258574785386173
+34567,130,no_wedge,D_fresh_F,same_seed_fresh_F,archived_seed12345_F,40.0,19.672933420501316,19.672933420501316,1.0,True,1.1380883322351643,17.44453992731043,20.732522236087803

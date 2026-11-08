@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-04",
+  "source_archive": "physical_followup_review/followup140_20261015T034122_1704051_review.zip",
+  "source_archive_sha256": "d485282d8c1fd0eaa444db0579b1ff871fda69f7116abe12183d68b3a2d0c3b1",
+  "local_python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:29:07) [Clang 19.1.7 ]",
+  "CLI_seed_isolation_and_fixed_parameter_dry_run": "PASS",
+  "packaging_default_and_optional_cube_exclusion_checks": "PASS",
+  "static_python_compilation": "PASS",
+  "synthetic_analysis": "NOT_RUN: local pandas unavailable; recipient must run self_test.py with analysis dependencies",
+  "real_21cmFAST_simulations": "NOT_RUN",
+  "physics_validation": "NOT_RUN",
+  "minimum_target_snapshots": 9,
+  "native_files_unchanged": {
+    "evidence/frequency_analysis/forecasts/130MHz/native_N128.npz": "e2c3ad6c96c542947070d18bec77f86ce36b1faff96e6041a531cdfd9b1a41d4",
+    "evidence/frequency_analysis/forecasts/140MHz/native_N128.npz": "f578025569ef4db6e25b9ccb7a7174029b3ec78b3c8c35687f92973143c13752"
+  },
+  "limitations": [
+    "No 21cmFAST installed in preparation environment",
+    "No raw production cubes supplied",
+    "No calibrated likelihood or cross-frequency covariance",
+    "Complete L_X physical units not established by archived AstroParams docstring"
+  ],
+  "primary_summary_correction": "All main plots, best-sampled selections, and console outputs now use matched-seed D_fresh_F with archived seed12345 F covariance. Archived-target metrics have explicit secondary labels.",
+  "synthetic_test_added": "A new-seed synthetic case reverses the best input between archived and fresh targets, asserting fresh-target selection and transfer ratio semantics; NOT_RUN locally because pandas unavailable."
+}

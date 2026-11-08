@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this software snapshot and the associated manuscript."
+type: software
+title: "Detectability versus Distinguishability: 21-cm model comparison code"
+authors:
+  - family-names: Xiao
+    given-names: Shunwu
+  - family-names: Guo
+    given-names: Quan
+  - family-names: Zheng
+    given-names: Qian
+version: 0.1.0
+date-released: 2026-11-08
+license: MIT
+repository-code: "https://github.com/guotsuan/21cm-detectability-distinguishability"

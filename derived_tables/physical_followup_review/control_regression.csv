@@ -1,0 +1,3 @@
+frequency_MHz,model,max_relative_native_signal_error,tolerance,passed
+140,F,7.627953224620398e-08,3e-05,True
+140,Mplus,3.966719623882398e-07,3e-05,True
